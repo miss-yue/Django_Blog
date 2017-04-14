@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'bootstrap_admin', #使用Django-admin-bootstrap美化后台管理界面；使用pip 安装 bootstrap-admin
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
