@@ -94,3 +94,6 @@ ENV/
 
 # migrations
 migrations/
+
+# Mac
+.DS_Store
