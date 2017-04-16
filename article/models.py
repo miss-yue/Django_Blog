@@ -11,7 +11,8 @@ class Article(models.Model):
     content = models.TextField(blank=True, null=True) #博客文章正文
 
     # python3 使用__str__，python2 使用__unicode__
-    def __str__(self):
+    #def __str__(self):
+    def __unicode__(self):
         return self.title
 
     class Meta: #按时间下降排序
